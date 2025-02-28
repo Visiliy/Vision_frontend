@@ -1,0 +1,33 @@
+.UpperLine {
+    position: absolute;
+    width: 100%;
+    user-select: none;
+}
+
+.logo_text {
+    position: absolute;
+    font-size: 45px;
+    left: 5%;
+    padding: 10px 45px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.login_btn {
+    position: absolute;
+    right: 3%;
+    width: 150px;
+    height: 55px;
+    border-radius: 15px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.login_btn:active {
+    transform: scale(0.95);
+}

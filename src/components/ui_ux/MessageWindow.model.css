@@ -1,0 +1,29 @@
+.MessageWindow {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: white;
+    width: 35%;
+    border-radius: 15px;
+    user-select: none;
+    transform: translate(-50%, -0%);
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.begin_btn {
+    width: 86%;
+    margin-top: 15px;
+    border: none;
+    height: 45px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.begin_btn:active {
+    transform: scale(0.95);
+}
