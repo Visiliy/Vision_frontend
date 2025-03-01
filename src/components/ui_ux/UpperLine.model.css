@@ -2,14 +2,19 @@
     position: absolute;
     width: 100%;
     user-select: none;
+    background: white;
+    height: 130px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 .logo_text {
     position: absolute;
     font-size: 45px;
-    left: 5%;
+    left: 3%;
     padding: 10px 45px;
-    background-color: white;
+    background-color: black;
+    color: white;
     border-radius: 15px;
 }
 
@@ -23,7 +28,7 @@
     border: none;
     color: white;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 38px;
     cursor: pointer;
     transition: 0.2s;
 }

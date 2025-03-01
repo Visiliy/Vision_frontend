@@ -24,6 +24,10 @@
     cursor: pointer;
 }
 
+.display_none {
+    display: none;
+}
+
 .begin_btn:active {
     transform: scale(0.95);
 }
