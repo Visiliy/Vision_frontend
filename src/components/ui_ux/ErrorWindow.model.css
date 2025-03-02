@@ -1,0 +1,15 @@
+.ErrorWindow {
+    position: absolute;
+    user-select: none;
+    top: 20%;
+    left: 85%;
+    transform: translate(-50%, -0%);
+    font-size: 25px;
+    background-color: red;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.display_none {
+    display: none;
+}
